@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>【ReadME】node-bootstrap文档</title>
+
+    <!-- Le styles -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="bootstrap/css/docs.css" rel="stylesheet">
+    <link href="bootstrap/js/google-code-prettify/prettify.css" rel="stylesheet">
+
+  </head>
+
+  <body data-spy="scroll" data-target=".bs-docs-sidebar">
+
+  <div class="container">
+
+  <div class="row">
+
+<div class="col-md-3 bs-docs-sidebar affix-top"><ul class="nav bs-docs-sidenav bs-docs-trss" data-spy="affix"><li><a href="#1">1. node-bootstrap的使用</a></li><li><a href="#2">2. 安装</a></li><li><a href="#3">3. <strong>批量转换</strong>.md文件</a></li><li><a href="#4">4. 转换为没有数字序号html文件</a></li><li><a href="#5">5. 如何修改<strong>标题</strong></a></li><li><a href="#6">6. 将文件输出到<strong>指定目录</strong>，默认后缀<code>.html</code></a></li><li><a href="#7">7. markdow写作示例</a></li><li><a href="#top" id="back-to-top">回到顶部</a></li></ul></div><div class="col-md-9 bs-docs-content"><div class="page-header bs-docs-header" id="top"><h1>【ReadME】node-bootstrap文档</h1><span>20140810</span></div><p><!-- title: 【ReadME】node-bootstrap文档 -->
+<!-- subtitle: 20140810 --></p>
+
+<h2 id="1">1. node-bootstrap的使用</h2>
+
+<p>目的：根据MARKDOWN文件自动生成html文档</p>
+
+<p>修改自npm install markdown2bootstrap模块</p>
+
+<p>运行环境：node环境（自行安装）</p>
+
+<h2 id="2">2. 安装</h2>
+
+<pre class="prettyprint"><code>$ git clone xxx
+</code></pre>
+
+<p>进入项目目录.</p>
+
+<p>将.md文件复制到项目目录</p>
+
+<p>执行</p>
+
+<pre class="prettyprint"><code>$ node_modules/.bin/markdown2bootstrap doc.md
+</code></pre>
+
+<p>win</p>
+
+<pre class="prettyprint"><code>node_modules\.bin\markdown2bootstrap doc.md
+</code></pre>
+
+<p>就可以创建bootstrap模板的html文件</p>
+
+<h2 id="3">3. <strong>批量转换</strong>.md文件</h2>
+
+<pre class="prettyprint"><code>$ node_modules/.bin/markdown2bootstrap doc1.md doc2.md ...
+Converted doc1.md to doc1.html
+Converted doc2.md to doc2.html
+...
+</code></pre>
+
+<h2 id="4">4. 转换为没有数字序号html文件</h2>
+
+<pre class="prettyprint"><code>$ node_modules/.bin/markdown2bootstrap -n doc.md
+</code></pre>
+
+<h2 id="5">5. 如何修改<strong>标题</strong></h2>
+
+<p>在md文件中修改对应<strong>注释</strong></p>
+
+<pre class="prettyprint"><code>    &lt;!-- title: This is a title --&gt;
+    &lt;!-- subtitle: This is a subtitle --&gt;
+</code></pre>
+
+<h2 id="6">6. 将文件输出到<strong>指定目录</strong>，默认后缀<code>.html</code></h2>
+
+<pre class="prettyprint"><code>$ node_modules/.bin/markdown2bootstrap --outputdir html doc.md
+Converted  doc.md to html/doc.html
+</code></pre>
+
+<h2 id="7">7. markdow写作示例</h2>
+
+<p>参考README.md，更多<a href="http://wowubuntu.com/markdown/#p">Markdown 语法说明</a></p>
+      </div>
+    </div>
+
+  </div>
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="bootstrap/js/jquery.js"></script>
+    <script src="bootstrap/js/google-code-prettify/prettify.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script type="text/javascript">prettyPrint();</script>
+
+  </body>
+</html>

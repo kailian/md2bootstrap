@@ -1,0 +1,118 @@
+/*!
+ * Bootstrap Docs (http://getbootstrap.com)
+ * Copyright 2011-2014 Twitter, Inc.
+ * Licensed under the Creative Commons Attribution 3.0 Unported License. For
+ * details, see http://creativecommons.org/licenses/by/3.0/.
+ */
+.bs-docs-trss {
+  overflow-y: scroll;
+  height: 90%;
+  border: 1px solid #eee;
+  background-color: #eee;
+  padding: 12px;
+  border-radius: 4px;
+  box-shadow: rgba(100,100,100,1) 0px 0px 6px;
+}
+
+.bs-docs-content {
+  top: 20px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  box-shadow: rgba(100,100,100,1) 0px 0px 6px;
+  margin-bottom: 40px;
+}
+
+.bs-docs-header {
+  text-align: center;
+}
+
+.bs-docs-header {
+  position: relative;
+  padding: 30px 15px;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(0,0,0,.1);
+}
+
+.bs-docs-sidebar.affix,.bs-docs-sidebar.affix-bottom {
+  width: 263px
+}
+
+.bs-docs-sidebar {
+  position: relative;
+}
+
+.bs-docs-sidebar .affix {
+  position: fixed;
+  top: 20px;
+}
+
+.bs-docs-sidebar.affix-bottom .bs-docs-sidenav,.bs-docs-sidebar.affix .bs-docs-sidenav {
+  margin-top: 0;
+  margin-bottom: 0
+}
+
+.bs-docs-sidebar .nav>.active>a, .bs-docs-sidebar .nav>.active:hover>a, .bs-docs-sidebar .nav>.active:focus>a {
+  padding-left: 18px;
+  font-weight: 700;
+  color: #563d7c;
+  background-color: transparent;
+  border-left: 2px solid #563d7c;
+}
+
+.bs-docs-sidebar .nav>li>a:hover {
+  color: #563d7c;
+  padding-left: 18px;
+  font-weight: 500;
+  background-color: transparent;
+  border-left: 1px solid #563d7c;
+}
+
+.bs-docs-sidebar .nav>li>a {
+  display: block;
+  padding: 4px 20px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #000;
+}
+
+.bs-docs-sidebar .affix-bottom {
+  position: absolute
+}
+
+@media (min-width: 992px) {
+  .bs-docs-sidebar .nav>.active>ul {
+    display: block
+  }
+  .bs-docs-sidebar .affix,.bs-docs-sidebar.affix-bottom {
+    width: 250px
+  }
+  .bs-docs-sidebar .affix {
+    position: fixed;
+    top: 20px;
+  } 
+  .bs-docs-sidebar .affix-bottom .bs-docs-sidenav,.bs-docs-sidebar.affix .bs-docs-sidenav {
+    margin-top: 0;
+    margin-bottom: 0
+  }
+}
+
+@media (min-width: 1200px) {
+  .bs-docs-sidebar.affix-bottom,.bs-docs-sidebar.affix {
+  width: 265px
+}
+
+#back-to-top {
+  margin-top: 10px;
+  color: #999;
+  padding-left: 18px;
+  font-weight: 500;
+  border-left: 0;
+}
+
+#back-to-top:hover{
+  margin-top: 10px;
+  color: #563d7c;
+  padding-left: 18px;
+  font-weight: 500;
+  border-left: 1px solid #563d7c;
+}
