@@ -10,7 +10,7 @@
 
 ## 安装
 
-    $ git clone xxx
+    $ git clone https://github.com/kailian/md2bootstrap.git
 
 进入项目目录.
 
