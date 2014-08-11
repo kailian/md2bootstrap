@@ -5,7 +5,7 @@
  * details, see http://creativecommons.org/licenses/by/3.0/.
  */
 .bs-docs-trss {
-  overflow-y: scroll;
+  overflow-y: auto;
   height: 90%;
   border: 1px solid #eee;
   background-color: #eee;
