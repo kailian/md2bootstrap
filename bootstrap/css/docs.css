@@ -22,6 +22,10 @@
   margin-bottom: 40px;
 }
 
+.bs-docs-content img {
+  width: 100%;
+}
+
 .bs-docs-header {
   text-align: center;
 }

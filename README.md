@@ -10,7 +10,7 @@
 
 ## 安装
 
-    $ git clone https://github.com/kailian/md2bootstrap.git
+    $ git clone http://git.mingchao.com/git/linkailian/md2bootstrap.git
 
 进入项目目录.
 
@@ -52,5 +52,9 @@ win
 ## markdow写作示例
 
 参考README.md，更多[Markdown 语法说明](http://wowubuntu.com/markdown/#p)
+
+## 效果
+
+![demo](/images/demo.png)
 
     
